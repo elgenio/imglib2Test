@@ -30,7 +30,7 @@ public class imgLib2Test {
             throws ImgIOException {
 
         // define the file to open
-        File file = new File("/Volumes/Data/imgLib2Project/img/img.tif");
+        File file = new File("../res/img.tif");
         String path = file.getAbsolutePath();
         ImgOpener imgOpener = new ImgOpener();
 
